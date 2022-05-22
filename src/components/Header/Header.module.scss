@@ -1,0 +1,54 @@
+.container {
+  margin: 0 auto;
+  /* border: 1px solid #000; */
+}
+
+header {
+  background: #6e78b7;
+  padding: 55px 0;
+}
+
+header .menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+header .menu a {
+  width: 260px;
+  background: #d86a43;
+  text-align: center;
+  padding: 14px 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 8px;
+  color: #fefcfc;
+  box-shadow: 0 0 10px -1px #000;
+}
+
+header .menu a:hover {
+  box-shadow: none;
+  background: #e44d26;
+}
+
+header {
+  .menu {
+  }
+
+  .a {
+  }
+}
+
+header .menu .a img {
+}
+
+header {
+  .menu {
+    width: 300px;
+    height: 300px;
+    .a {
+      text-decoration: none;
+    }
+  }
+}
